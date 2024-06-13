@@ -1,0 +1,77 @@
+/* here are the more default-like styles that are needed, 
+the other css file covers project-specific styles, generally */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(5, 82, 5);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: rgb(52, 141, 52);
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a:after {
+    color: green;
+}
+
+main {
+    padding: 2rem;
+}
+
+main ul {
+    padding-left: 40px;
+}
+
+main ol {
+    padding-left: 50px;
+}
+
+div {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #555;
+}
+
+footer p {
+    text-align: center;
+    color: black;
+    font-size: small;
+    padding: 20px 0;
+}

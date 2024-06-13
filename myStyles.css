@@ -1,0 +1,40 @@
+
+/* styles for the divs */
+.div1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+}
+.div2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000fd;
+}
+.div3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000fe;
+}
+
+/* style for tableau graph */
+.tableau {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+/* img styles */
+.image-section {
+    position: absolute;
+    top: 70%;
+    right: 50px;
+    transform: translateY(-50%);
+    width: 600px;
+}
+
+.image-section p {
+    padding-left: 24px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
