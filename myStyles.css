@@ -38,3 +38,58 @@
     height: auto;
     border: 1px solid #ccc;
 }
+
+.about-page header {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.about-page nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 25px 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.about-page nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+.about-page nav a:hover {
+    text-decoration: underline;
+}
+
+.about-page main {
+    display: flex;
+    justify-content: center;
+    padding: 10px 12px 30px 12px;
+}
+
+.about-page .div1 {
+    max-width: 900px;
+    width: 100%;
+    padding: 22px;
+}
+
+.about-page .div1 h2 {
+    text-align: center;
+    margin: 10px 0 12px 0;
+}
+
+.about-page .div1 p {
+    line-height: 1.6;
+    margin: 0 0 18px 0;
+}
+
+.about-page footer {
+    text-align: center;
+    padding: 10px 0 25px 0;
+}
+
